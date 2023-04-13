@@ -127,7 +127,7 @@ if ($_GET['form']=='add') { ?>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" name="recolector_uno_agregar" id="recolector_uno_agregar" autocomplete="off" required="">
                   <!-- <input type="hidden" class="tiros" name="peso_recolector_uno_agregar" id="peso_recolector_uno_agregar" > -->
-                  <input type="hidden" name="id_recolector_uno_agregar" id="id_recolector_uno_agregar" >
+                  <input type="hidden" name="id_recolector_uno_agregar" id="id_recolector_uno_agregar" value="0">
                 </div>
               </div>
               <div class="form-group" style="display: none;" id="recolector_dos">
@@ -135,7 +135,7 @@ if ($_GET['form']=='add') { ?>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" name="recolector_dos_agregar" id="recolector_dos_agregar" autocomplete="off">
                   <!-- <input type="hidden" class="tiros" name="peso_recolector_dos_agregar" id="peso_recolector_dos_agregar" > -->
-                  <input type="hidden" name="id_recolector_dos_agregar" id="id_recolector_dos_agregar" >
+                  <input type="hidden" name="id_recolector_dos_agregar" id="id_recolector_dos_agregar" value="0">
                 </div>
               </div>
               <div class="form-group" style="display: none;" id="recolector_tres">
@@ -143,7 +143,7 @@ if ($_GET['form']=='add') { ?>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" name="recolector_tres_agregar" id="recolector_tres_agregar" autocomplete="off">
                   <!-- <input type="hidden" class="tiros" name="peso_recolector_tres_agregar" id="peso_recolector_tres_agregar" > -->
-                  <input type="hidden" name="id_recolector_tres_agregar" id="id_recolector_tres_agregar" >
+                  <input type="hidden" name="id_recolector_tres_agregar" id="id_recolector_tres_agregar" value="0">
                 </div>
               </div>
               <div class="form-group" style="display: none;" id="recolector_cuatro">
@@ -151,7 +151,7 @@ if ($_GET['form']=='add') { ?>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" name="recolector_cuatro_agregar" id="recolector_cuatro_agregar" autocomplete="off">
                   <!-- <input type="hidden" class="tiros" name="peso_recolector_cuatro_agregar" id="peso_recolector_cuatro_agregar" > -->
-                  <input type="hidden" name="id_recolector_cuatro_agregar" id="id_recolector_cuatro_agregar" >
+                  <input type="hidden" name="id_recolector_cuatro_agregar" id="id_recolector_cuatro_agregar" value="0">
                 </div>
               </div>
               <div class="form-group" style="display: none;" id="recolector_cinco">
@@ -159,7 +159,7 @@ if ($_GET['form']=='add') { ?>
                 <div class="col-sm-5">
                   <input type="text" class="form-control" name="recolector_cinco_agregar" id="recolector_cinco_agregar" autocomplete="off">
                   <!-- <input type="hidden" class="tiros" name="peso_recolector_cinco_agregar" id="peso_recolector_cinco_agregar" > -->
-                  <input type="hidden" name="id_recolector_cinco_agregar" id="id_recolector_cinco_agregar" >
+                  <input type="hidden" name="id_recolector_cinco_agregar" id="id_recolector_cinco_agregar" value="0">
                 </div>
               </div>
               <div class="form-group">

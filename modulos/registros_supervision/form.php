@@ -417,8 +417,8 @@ elseif ($_GET['form']=='edit') {
                             <div class="col-sm-5">
                                 <input type="text" class="form-control tiros" name="tiro_uno_agregar"
                                     id="tiro_uno_agregar" autocomplete="off" required="" onkeyup="sumar_tickets();">
-                                <input type="hidden" name="id_folio_tiro_uno_agregar" id="id_folio_tiro_uno_agregar">
-                                <input type="hidden" name="tiro_1_folio_ticket" id="tiro_1_folio_ticket">
+                                <input type="hidden" name="id_folio_tiro_uno_agregar" id="id_folio_tiro_uno_agregar" value="0">
+                                <input type="hidden" name="tiro_1_folio_ticket" id="tiro_1_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_uno_d">
@@ -427,7 +427,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_uno_agregar"
                                     id="destino_final_tiro_uno_agregar" required="">
                                 <input type="hidden" name="id_destino_final_tiro_uno_agregar"
-                                    id="id_destino_final_tiro_uno_agregar">
+                                    id="id_destino_final_tiro_uno_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_1" id="name_destino_final_tiro_1">
                             </div>
                         </div>
@@ -437,8 +437,8 @@ elseif ($_GET['form']=='edit') {
                             <div class="col-sm-5">
                                 <input type="text" class="form-control tiros" name="tiro_dos_agregar"
                                     id="tiro_dos_agregar" autocomplete="off" onkeyup="sumar_tickets();">
-                                <input type="hidden" name="id_folio_tiro_dos_agregar" id="id_folio_tiro_dos_agregar">
-                                <input type="hidden" name="tiro_2_folio_ticket" id="tiro_2_folio_ticket">
+                                <input type="hidden" name="id_folio_tiro_dos_agregar" id="id_folio_tiro_dos_agregar" value="0">
+                                <input type="hidden" name="tiro_2_folio_ticket" id="tiro_2_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_dos_d">
@@ -447,7 +447,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_dos_agregar"
                                     id="destino_final_tiro_dos_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_dos_agregar"
-                                    id="id_destino_final_tiro_dos_agregar">
+                                    id="id_destino_final_tiro_dos_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_2" id="name_destino_final_tiro_2">
                             </div>
                         </div>
@@ -458,8 +458,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_tres_agregar"
                                     id="tiro_tres_agregar" autocomplete="off" onkeyup="sumar_tickets();">
 
-                                <input type="hidden" name="id_folio_tiro_tres_agregar" id="id_folio_tiro_tres_agregar">
-                                <input type="hidden" name="tiro_3_folio_ticket" id="tiro_3_folio_ticket">
+                                <input type="hidden" name="id_folio_tiro_tres_agregar" id="id_folio_tiro_tres_agregar" value="0">
+                                <input type="hidden" name="tiro_3_folio_ticket" id="tiro_3_folio_ticket" value="0">
 
                             </div>
                         </div>
@@ -469,7 +469,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_tres_agregar"
                                     id="destino_final_tiro_tres_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_tres_agregar"
-                                    id="id_destino_final_tiro_tres_agregar">
+                                    id="id_destino_final_tiro_tres_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_3" id="name_destino_final_tiro_3">
                             </div>
                         </div>
@@ -480,8 +480,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_cuatro_agregar"
                                     id="tiro_cuatro_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_cuatro_agregar"
-                                    id="id_folio_tiro_cuatro_agregar">
-                                <input type="hidden" name="tiro_4_folio_ticket" id="tiro_4_folio_ticket">
+                                    id="id_folio_tiro_cuatro_agregar" value="0">
+                                <input type="hidden" name="tiro_4_folio_ticket" id="tiro_4_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_cuatro_d">
@@ -490,7 +490,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_cuatro_agregar"
                                     id="destino_final_tiro_cuatro_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_cuatro_agregar"
-                                    id="id_destino_final_tiro_cuatro_agregar">
+                                    id="id_destino_final_tiro_cuatro_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_4" id="name_destino_final_tiro_4">
                             </div>
                         </div>
@@ -502,8 +502,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_cinco_agregar"
                                     id="tiro_cinco_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_cinco_agregar"
-                                    id="id_folio_tiro_cinco_agregar">
-                                <input type="hidden" name="tiro_5_folio_ticket" id="tiro_5_folio_ticket">
+                                    id="id_folio_tiro_cinco_agregar" value="0">
+                                <input type="hidden" name="tiro_5_folio_ticket" id="tiro_5_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_cinco_d">
@@ -512,7 +512,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_cinco_agregar"
                                     id="destino_final_tiro_cinco_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_cinco_agregar"
-                                    id="id_destino_final_tiro_cinco_agregar">
+                                    id="id_destino_final_tiro_cinco_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_5" id="name_destino_final_tiro_5">
                             </div>
                         </div>
@@ -523,8 +523,8 @@ elseif ($_GET['form']=='edit') {
                             <div class="col-sm-5">
                                 <input type="text" class="form-control tiros" name="tiro_seis_agregar"
                                     id="tiro_seis_agregar" autocomplete="off" onkeyup="sumar_tickets();">
-                                <input type="hidden" name="id_folio_tiro_seis_agregar" id="id_folio_tiro_seis_agregar">
-                                <input type="hidden" name="tiro_6_folio_ticket" id="tiro_6_folio_ticket">
+                                <input type="hidden" name="id_folio_tiro_seis_agregar" id="id_folio_tiro_seis_agregar" value="0">
+                                <input type="hidden" name="tiro_6_folio_ticket" id="tiro_6_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_seis_d">
@@ -533,7 +533,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_seis_agregar"
                                     id="destino_final_tiro_seis_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_seis_agregar"
-                                    id="id_destino_final_tiro_seis_agregar">
+                                    id="id_destino_final_tiro_seis_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_6" id="name_destino_final_tiro_6">
                             </div>
                         </div>
@@ -545,8 +545,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_siete_agregar"
                                     id="tiro_siete_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_siete_agregar"
-                                    id="id_folio_tiro_siete_agregar">
-                                <input type="hidden" name="tiro_7_folio_ticket" id="tiro_7_folio_ticket">
+                                    id="id_folio_tiro_siete_agregar" value="0">
+                                <input type="hidden" name="tiro_7_folio_ticket" id="tiro_7_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_siete_d">
@@ -555,7 +555,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_siete_agregar"
                                     id="destino_final_tiro_siete_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_siete_agregar"
-                                    id="id_destino_final_tiro_siete_agregar">
+                                    id="id_destino_final_tiro_siete_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_7" id="name_destino_final_tiro_7">
                             </div>
                         </div>
@@ -567,8 +567,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_ocho_agregar"
                                     id="tiro_ocho_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_ocho_agregar"
-                                    id="id_folio_tiro_ocho_agregar">
-                                <input type="hidden" name="tiro_8_folio_ticket" id="tiro_8_folio_ticket">
+                                    id="id_folio_tiro_ocho_agregar" value="0">
+                                <input type="hidden" name="tiro_8_folio_ticket" id="tiro_8_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_ocho_d">
@@ -577,7 +577,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_ocho_agregar"
                                     id="destino_final_tiro_ocho_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_ocho_agregar"
-                                    id="id_destino_final_tiro_ocho_agregar">
+                                    id="id_destino_final_tiro_ocho_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_8" id="name_destino_final_tiro_8">
                             </div>
                         </div>
@@ -589,8 +589,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_nueve_agregar"
                                     id="tiro_nueve_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_nueve_agregar"
-                                    id="id_folio_tiro_nueve_agregar">
-                                <input type="hidden" name="tiro_9_folio_ticket" id="tiro_9_folio_ticket">
+                                    id="id_folio_tiro_nueve_agregar" value="0">
+                                <input type="hidden" name="tiro_9_folio_ticket" id="tiro_9_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_nueve_d">
@@ -599,7 +599,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_nueve_agregar"
                                     id="destino_final_tiro_nueve_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_nueve_agregar"
-                                    id="id_destino_final_tiro_nueve_agregar">
+                                    id="id_destino_final_tiro_nueve_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_9" id="name_destino_final_tiro_9">
                             </div>
                         </div>
@@ -611,8 +611,8 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control tiros" name="tiro_diez_agregar"
                                     id="tiro_diez_agregar" autocomplete="off" onkeyup="sumar_tickets();">
                                 <input type="hidden" name="id_folio_tiro_diez_agregar"
-                                    id="id_folio_tiro_diez_agregar">
-                                <input type="hidden" name="tiro_10_folio_ticket" id="tiro_10_folio_ticket">
+                                    id="id_folio_tiro_diez_agregar" value="0">
+                                <input type="hidden" name="tiro_10_folio_ticket" id="tiro_10_folio_ticket" value="0">
                             </div>
                         </div>
                         <div class="form-group" style="display: none;" id="tiro_diez_d">
@@ -621,7 +621,7 @@ elseif ($_GET['form']=='edit') {
                                 <input type="text" class="form-control" name="destino_final_tiro_diez_agregar"
                                     id="destino_final_tiro_diez_agregar">
                                 <input type="hidden" name="id_destino_final_tiro_diez_agregar"
-                                    id="id_destino_final_tiro_diez_agregar">
+                                    id="id_destino_final_tiro_diez_agregar" value="0">
                                 <input type="hidden" name="name_destino_final_tiro_10" id="name_destino_final_tiro_10">
                             </div>
                         </div>
